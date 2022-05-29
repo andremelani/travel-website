@@ -1,0 +1,195 @@
+.footer {
+  height: 60vh;
+  width: 100%;
+  padding: 120px 120px 0 120px;
+  background-color: #001439;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width:468px) {
+    height: 100%;
+    padding: 30px 20px 0 20px;
+    justify-content: center;
+  }
+
+  .informacoes {
+    width: 100%;
+    display: flex;
+    @media (max-width:468px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .contact {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      @media (max-width:468px) {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .title {
+        font-family: "Oswald, Regular";
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      .phone {
+        font-family: "Oswald, Regular";
+        color: #5E6B8A;
+        font-size: 16px;
+      }
+      .address {
+        font-family: "Oswald, Regular";
+        color: #5E6B8A;
+        font-size: 14px;
+      }
+    }
+
+    .help {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      @media (max-width:468px) {
+        width: 100%;
+        align-items: center;
+      }
+
+      .title {
+        font-family: "Oswald, Regular";
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .subtitle {
+        font-family: "Oswald, Regular";
+        color: #5E6B8A;
+        font-size: 16px;
+        margin-bottom: 10px;
+        transition: ease-in-out 0.2s;
+
+        &:hover {
+          cursor: pointer;
+          color: #0c9fa7;
+        }
+      }
+    }
+
+    .menu {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      @media (max-width:468px) {
+        width: 100%;
+        align-items: center;
+      }
+
+      .title {
+        font-family: "Oswald, Regular";
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .subtitle {
+        font-family: "Oswald, Regular";
+        color: #5E6B8A;
+        font-size: 16px;
+        margin-bottom: 10px;
+        transition: ease-in-out 0.2s;
+
+        &:hover {
+          cursor: pointer;
+          color: #0c9fa7;
+        }
+      }
+    }
+
+    .stay {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      @media (max-width:468px) {
+        width: 100%;
+        align-items: center;
+      }
+
+      .title {
+        font-family: "Oswald, Medium";
+        color: #fff;
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      .inputArea {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+        @media (max-width:468px) {
+          width: 100%;
+          justify-content: center;
+        }
+
+        input {
+          border: 1px solid #0c9fa7;
+          height: 30px;
+          width: 60%;
+          font-family: "Oswald, Regular";
+          font-size: 14px;
+          padding: 0 10px;
+        }
+        button {
+          height: 30px;
+          padding: 0 20px;
+          border: none;
+          background-color: #0c9fa7;
+          color: #fff;
+          font-family: "Oswald, Medium";
+          font-size: 14px;
+          transition: ease-in 0.2s;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #0a787e;
+          }
+        }
+      }
+    }
+  }
+
+  
+  .separador {
+    width: 100%;
+    height: 1px;
+    background-color: #5E6B8A;
+    margin: 30px 0;
+    }
+
+    .direito {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .reservado {
+            font-family: "Oswald, Regular";
+            font-size: 14px;
+            color: #5E6B8A;
+        }
+
+        .url {
+            font-family: "Oswald, Regular";
+            font-size: 14px;
+            color: #5E6B8A;
+        }
+    }
+
+}
